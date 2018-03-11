@@ -50,7 +50,6 @@ public:
 	int get_col_sum(int c);
 	Matrix operator*(double m);
 	void set_q_matrix();
-
 	double* markov();
 	void m_process(double m[]);
 	void m_copy(double m[], double m_[]);

@@ -442,7 +442,7 @@ std::istream& operator>>(std::istream is, Matrix& matrix) {
 	return is;
 }
 
-// assssssssssssssssssssssssssignment
+// ASSIGNMENT FUNCTIONS LAMAO XOXOXO
 void Matrix::get_importance() {
 	Matrix i = *this;
 	for (int r = 0; r < n_size; ++r) {
