@@ -507,9 +507,6 @@ void Matrix::m_process(double m[]) {
 	for (int i = 0; i < n_size; ++i) {
 		m[i] = m_[i];
 	}
-
-	
-	//m = sum;
 };
 
 void Matrix::m_copy(double m[], double m_[]) {
@@ -520,7 +517,6 @@ void Matrix::m_copy(double m[], double m_[]) {
 
 bool Matrix::m_check(double m[], double m_[]) {
 	for (int i = 0; i < n_size; ++i) {
-		//cout << m[i] << "|" << m_[i] << "|" << fabs(m[i] - m_[i]) << "oi" << endl;
 		if (fabs(m[i] - m_[i]) > 0.00001) {
 			return 0;
 		}

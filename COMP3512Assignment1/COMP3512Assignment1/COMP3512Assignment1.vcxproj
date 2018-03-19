@@ -121,6 +121,11 @@
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="tester1.txt" />
+    <Text Include="tester2.txt" />
+    <Text Include="tester3.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
